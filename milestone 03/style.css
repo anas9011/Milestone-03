@@ -1,0 +1,101 @@
+/* styling form and resume section */
+
+body{
+    font-family:'Times new Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+
+form{
+    margin: auto;
+    background-color: rgb(red, green, blue);
+    border-radius: 8px;
+    border-radius: 04px 8px rgb(0,0,0.5);
+    padding: 20px;
+    max-width: 600px;
+    
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+fieldset {
+border: 2px solid green;
+border-radius: 20px;
+margin-bottom: 20px;
+background-color: gainsboro;
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color:rgb(34,29,29);
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: 600px;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(48, 159, 48);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: green;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ button :hover{
+    color: whitesmoke;
+ }
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    background-color: rgb;
+    box-shadow: 0 4px 8px rgb(0,0,0.5);
+    
+}
+    #resume-display h2 {
+        color: black;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
